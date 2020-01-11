@@ -1,4 +1,7 @@
 //https://hekilledmywire.wordpress.com/2011/03/16/using-the-adc-tutorial-part-5/
+#ifndef __AVR_ATmega328P__
+#define __AVR_ATmega328P__
+#endif
 
 #include <avr/io.h>
 #include <stdlib.h>

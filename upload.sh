@@ -1,9 +1,9 @@
-avrdude -c arduino -p $1 -P $2 -b 115200 -U flash:w:$3.hex
+avrdude -c arduino -p atmega328p -P $1 -b 115200 -U flash:w:$2.hex
 
 echo "removing...."
-echo $3.o
-rm $3.o 
-echo $3.elf
-rm $3.elf 
-echo $3.hex
-rm $3.hex
+echo $2.o
+rm $2.o 
+echo $2.elf
+rm $2.elf 
+echo $2.hex
+rm $2.hex
